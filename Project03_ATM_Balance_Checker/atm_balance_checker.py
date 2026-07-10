@@ -10,7 +10,10 @@ print("Current Balance: ", balance)
 cash_withdrawal = int(input("Enter your withdrawal amount:  "))
 
 if cash_withdrawal <= balance:
-    print("Transaction Successful! \nRemaining Balance:", balance - cash_withdrawal)
+    balance -= cash_withdrawal
+    
+    print("Transaction Successful!")
+    print("Remaining Balance:", balance)
 else:
     print("Insufficient Balance!")
 
