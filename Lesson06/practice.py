@@ -5,6 +5,8 @@ while True:
     print("             ATM Menu")
     print("=" * 40)
 
+
+
     print("\n1. Check Balance")
     print("2. Withdraw")
     print("3. Deposit")
